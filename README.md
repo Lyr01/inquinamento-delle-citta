@@ -86,7 +86,7 @@ Le librerie usate per questo progetto.
 * [Lodash](https://lodash.com/)
 
 ### Installation
-Ecco il sito dove vedere il progetto:
+Ecco il sito dove provare il progetto:
 https://inquinamento-8d5f2.web.app/
 
 
