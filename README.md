@@ -25,23 +25,23 @@ Questo è un progetto semplice che mostra i livelli di inquinamento delle città
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Lyr01/Progetto-JavaScript-Basics-di-Hamza-Khan">
+  <a href="https://github.com/Lyr01/inquinamento-delle-citta">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Contatore</h3>
+  <h3 align="center">Inquinamento</h3>
 
   <p align="center">
-    Un semplice contatore
+    Un semplice progetto che mostra l'inquinamento delle città.
     <br />
-    <a href="https://github.com/Lyr01/Progetto-JavaScript-Basics-di-Hamza-Khan"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Lyr01/inquinamento-delle-citta"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Lyr01/Progetto-JavaScript-Basics-di-Hamza-Khan>View Demo</a>
+    <a href="https://github.com/Lyr01/inquinamento-delle-citta>View Demo</a>
     ·
-    <a href="https://github.com/Lyr01/Progetto-JavaScript-Basics-di-Hamza-Khan/issues">Report Bug</a>
+    <a href="https://github.com/Lyr01/inquinamento-delle-citta/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Lyr01/Progetto-JavaScript-Basics-di-Hamza-Khan/issues">Request Feature</a>
+    <a href="https://github.com/Lyr01/inquinamento-delle-citta/issues">Request Feature</a>
   </p>
 </p>
 
@@ -70,7 +70,7 @@ Questo è un progetto semplice che mostra i livelli di inquinamento delle città
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Questo progetto è stato realizzato per Star2Impact, per la precisione questo è un contatore che incrementa o decrementa il valore di un numero in corrispondenza del bottone cliccato.
+Questo progetto è stato realizzato per Star2Impact, un sito che usa un API esterna per rilevare dati di unquinamento di una città.
 
 ### Built With
 
@@ -79,15 +79,15 @@ I framework usati per questo progetto.
 * [JavaScript](https://www.javascript.com/)
 * [Atom](https://atom.io/)
 
+Le librerie usate per questo progetto.
 
-
-
-
-
+* [Webpack](https://webpack.js.org/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Lodash](https://lodash.com/)
 
 ### Installation
-
-Cliccare su code e scaricare la zip.
+Ecco il sito dove vedere il progetto:
+https://inquinamento-8d5f2.web.app/
 
 
 
