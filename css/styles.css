@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: DodgerBlue;
+}
+
+.header{
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  line-height: 50px;
+}
+
+.cerca-città{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+#cityNameTxt{
+  border: 3px black solid;
+  border-radius: 3px;
+  font-size: 18pt;
+  height: 42px;
+  width : 290px;
+}
+
+button{
+  border: 3px black solid;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+button:active{
+  border: 5px black solid;
+  opacity: 100%;
+}
+
+button:hover{
+  opacity: 55%;
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: DodgerBlue;
+  padding: 60px 0px;
+}
+
+.boxes > div {
+  border: 5px black solid;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 75px;
+  margin: 9px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.boxes > div > h1 {
+  height: 35px;
+  line-height: 40px;
+  font-size: 35px;
+}
+
+@media (min-width: 500px)  {
+
+  .boxes > div {
+    width: 200px;
+    height: 150px;
+    margin: 9px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+  }
+
+}

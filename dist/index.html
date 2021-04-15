@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Inquinamento</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1>Scopri l'Inquinamento delle città</h1>
+        <h1 id="fullCityName"></h1>
+      </div>
+      <div class="cerca-città">
+        <input type="text" id="cityNameTxt" value="cerca città..." onfocusin=this.value="" >
+        <button id="cityName">Vai</button>
+    </div>
+    <div class="boxes">
+      <div id="box1">aqi <h1 id="aqi1">0</h1></div>
+      <div id="box2">pm10 <h1 id="pM10">0</h1></div>
+      <div id="box3">temp <h1 id="temp1">0</h1></div>
+      <div>umidità <h1 id="umidità1">0</h1></div>
+      <div>pressione <h1 id="pressione1">0</h1></div>
+    </div>
+  </div>
+    <script src="../dist/main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyC7zHPgsuApiHnySVu6n8mdDbTm5BX_Zlg",
+    authDomain: "inquinamento-delle-citta.firebaseapp.com",
+    projectId: "inquinamento-delle-citta",
+    storageBucket: "inquinamento-delle-citta.appspot.com",
+    messagingSenderId: "974488056550",
+    appId: "1:974488056550:web:14c5aaf95282189e634127",
+    measurementId: "G-3G9TMSCYXD"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  </body>
+</html>
